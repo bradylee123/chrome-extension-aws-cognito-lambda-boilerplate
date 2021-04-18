@@ -1,0 +1,29 @@
+.playControls__inner {
+    height: 48px;
+    visibility: visible;
+    transition: -webkit-transform .2s ease-out;
+    transition: transform .2s ease-out;
+    transition: transform .2s ease-out,-webkit-transform .2s ease-out;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.playControls__wrapper {
+    padding-bottom: 10px;
+    visibility: visible;
+    position: relative;
+    height: 100%;
+}
+
+.playControls__elements {
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+    height: 100%;
+}
+
+.playControls__control {
+    width: 24px;
+    height: 100%;
+    margin: 0 0 0 12px;
+}

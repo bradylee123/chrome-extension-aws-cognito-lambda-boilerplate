@@ -1,0 +1,46 @@
+{
+  "name": "chrome-extension-aws-cognito-lambda-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
+    "@types/chrome": "0.0.122",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.1.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^4.5.4",
+    "aws-sdk": "^2.793.0",
+    "axios": "^0.21.0",
+    "circular-buffer": "^1.0.3",
+    "client-oauth2": "^4.3.3",
+    "react": "^16.13.1",
+    "react-audio-player": "^0.14.0",
+    "react-dom": "^16.13.1",
+    "react-player": "^2.6.2",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "ts-node": "^9.0.0",
+    "webext-redux": "^2.1.7",
+    "youtube-api": "^3.0.1",
+    "youtube-audio-stream": "^0.3.6"
+  }
+}

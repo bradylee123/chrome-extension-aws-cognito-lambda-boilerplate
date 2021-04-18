@@ -1,0 +1,42 @@
+{
+	"name": "chrome-extension-aws-cognito-lambda-boilerplate",
+	"version": "1.0.0",
+	"description": "",
+	"permissions": ["storage"],
+	"default_locale": "en",
+	"background": {
+		"scripts": [
+			"js/background.js"
+
+		],
+		"persistent": true
+	},
+	"browser_action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"16": "images/image16.png",
+			"32": "images/image32.png",
+			"48": "images/image48.png",
+			"128": "images/image128.png"
+		}
+	},
+	"icons": {
+		"16": "images/image16.png",
+		"32": "images/image32.png",
+		"48": "images/image48.png",
+		"128": "images/image128.png"
+	},
+	"content_security_policy": "default-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-A51brIKRZdDFeRfT2ssGGkjd+SqYv04llYAVMh9oygE=' 'sha256-5I1BSGnn08G2ADVdWje+UI4dvzgsRGrUrnxrVKUnZ7A=' 'sha256-iu3dNEUHNj1Oxp50P/HQSL4MmgSl3qvquDEzbB7WeMY='; frame-src https://www.youtube.com/ https://youtu.be/; img-src https://i.ytimg.com/; connect-src https://4p74gyr975.execute-api.ca-central-1.amazonaws.com/ https://uei07suogg.execute-api.ca-central-1.amazonaws.com/ https://cognito-idp.ca-central-1.amazonaws.com/ https://cognito-identity.ca-central-1.amazonaws.com/;",
+	"content_scripts": [
+      {
+        "matches": [
+          "https://*/*"
+        ],
+        "js": [
+          "js/content.js"
+        ],
+        "all_frames": true
+      }
+    ],
+	"manifest_version": 2
+}

@@ -1,0 +1,14 @@
+{
+  "l10nPlayer": {
+    "message": "ANY_TEXT",
+    "description": "Text for the Player Tab."
+  },
+  "l10nHistory": {
+    "message": "ANY_TEXT",
+    "description": "Text for the History Tab."
+  },
+  "l10nAccount": {
+    "message": "ANY_TEXT",
+    "description": "Text for the Account Tab."
+  }
+}
