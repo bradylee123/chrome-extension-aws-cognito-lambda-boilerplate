@@ -26,7 +26,7 @@
 		"48": "images/image48.png",
 		"128": "images/image128.png"
 	},
-	"content_security_policy": "default-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-A51brIKRZdDFeRfT2ssGGkjd+SqYv04llYAVMh9oygE=' 'sha256-5I1BSGnn08G2ADVdWje+UI4dvzgsRGrUrnxrVKUnZ7A=' 'sha256-iu3dNEUHNj1Oxp50P/HQSL4MmgSl3qvquDEzbB7WeMY='; frame-src https://www.youtube.com/ https://youtu.be/; img-src https://i.ytimg.com/; connect-src https://4p74gyr975.execute-api.ca-central-1.amazonaws.com/ https://uei07suogg.execute-api.ca-central-1.amazonaws.com/ https://cognito-idp.ca-central-1.amazonaws.com/ https://cognito-identity.ca-central-1.amazonaws.com/;",
+	"content_security_policy": "default-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-A51brIKRZdDFeRfT2ssGGkjd+SqYv04llYAVMh9oygE=' 'sha256-5I1BSGnn08G2ADVdWje+UI4dvzgsRGrUrnxrVKUnZ7A=' 'sha256-iu3dNEUHNj1Oxp50P/HQSL4MmgSl3qvquDEzbB7WeMY='; frame-src https://www.youtube.com/ https://youtu.be/; img-src https://i.ytimg.com/; connect-src https://cognito-idp.ca-central-1.amazonaws.com/ https://cognito-identity.ca-central-1.amazonaws.com/;",
 	"content_scripts": [
       {
         "matches": [
